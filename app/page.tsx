@@ -62,7 +62,7 @@ export default function Home() {
                 </span>
                 . The first three steps of the selling process involve research
                 into prospects&apos; wants and needs, with your presentation
-                midway through the selling process.
+                midway through the selling process. {""}
               </p>
               <button className=" px-3 py-4 border-none outline-none rounded-sm bg-red-500">
                 Read more
