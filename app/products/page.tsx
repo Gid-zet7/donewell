@@ -4,7 +4,7 @@ import Image from "next/image";
 import { useEffect, useState } from "react";
 import Navbar from "@/components/Navbar";
 
-export default function page() {
+export default function Products() {
   const [carousel, setCarousel] = useState<any | null>(null);
   const [prevButton, setPrevButton] = useState<any | null>(null);
   const [nextButton, setNextButton] = useState<any | null>(null);
@@ -47,7 +47,7 @@ export default function page() {
                 Family <span className="text-red-500">life </span>Protection
                 Plan
               </h1>
-              <img
+              <Image
                 src="/family.jpg"
                 alt="Carousel Image 1"
                 className="w-full h-[60vh] object-cover"
@@ -58,7 +58,7 @@ export default function page() {
                 Royal <span className="text-red-500">Funeral </span>
                 Plan
               </h1>
-              <img
+              <Image
                 src="/ceremony.jpg"
                 alt="Carousel Image 2"
                 className="w-full h-[60vh] object-cover"
@@ -69,7 +69,7 @@ export default function page() {
                 Future <span className="text-red-500">Scholar </span>
                 Plan
               </h1>
-              <img
+              <Image
                 src="/education-plan.jpg"
                 alt="Carousel Image 3"
                 className="w-full h-[60vh] object-cover"

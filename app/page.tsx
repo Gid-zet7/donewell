@@ -2,6 +2,7 @@
 import CoreValues from "@/components/CoreValues";
 import Navbar from "@/components/Navbar";
 import { Paper } from "@mui/material";
+import Image from "next/image";
 
 export default function Home() {
   return (
@@ -30,7 +31,7 @@ export default function Home() {
                 </button>
               </div>
             </article>
-            <img src="/agent.png" alt="" />
+            <Image src="/agent.png" alt="" />
           </div>
         </section>
 
@@ -48,7 +49,7 @@ export default function Home() {
         <section className="p-4">
           <Paper className="flex flex-col md:flex-row mt-4 max-w-6xl mx-auto justify-between text-center gap-3 mb-48">
             <div className="md:w-2/5">
-              <img src="/sales-process.png" alt="" />
+              <Image src="/sales-process.png" alt="" />
             </div>
             <div className=" p-6 md:w-1/2 flex flex-col justify-center text-center gap-3">
               <h1 className="text-2xl font-semibold">Sales Process</h1>
@@ -60,8 +61,8 @@ export default function Home() {
                   management and asking for referrals
                 </span>
                 . The first three steps of the selling process involve research
-                into prospects' wants and needs, with your presentation midway
-                through the selling process.
+                into prospects&apos; wants and needs, with your presentation
+                midway through the selling process.
               </p>
               <button className=" px-3 py-4 border-none outline-none rounded-sm bg-red-500">
                 Read more
