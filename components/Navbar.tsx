@@ -40,7 +40,7 @@ const Navbar = () => {
           >
             <div className="mx-auto flex max-w-7xl items-center justify-between text-white">
               <h1 className="text-xl lg:text-3xl">
-                <Link href="/">Donewell Agent</Link>
+                <Link href="/">Donewell Life Agent</Link>
               </h1>
 
               <ul className="flex gap-4 cursor-pointer">

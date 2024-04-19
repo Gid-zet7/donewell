@@ -3,6 +3,8 @@ import React from "react";
 import Image from "next/image";
 import { useEffect, useState } from "react";
 import Navbar from "@/components/Navbar";
+import { ProductDetails } from "@/constant";
+import ProductCard from "@/components/ProductCard";
 
 export default function Products() {
   const [carousel, setCarousel] = useState<any | null>(null);
@@ -47,7 +49,7 @@ export default function Products() {
                 Family <span className="text-red-500">life </span>Protection
                 Plan
               </h1>
-              <Image
+              <img
                 src="/family.jpg"
                 alt="Carousel Image 1"
                 className="w-full h-[60vh] object-cover"
@@ -58,7 +60,7 @@ export default function Products() {
                 Royal <span className="text-red-500">Funeral </span>
                 Plan
               </h1>
-              <Image
+              <img
                 src="/ceremony.jpg"
                 alt="Carousel Image 2"
                 className="w-full h-[60vh] object-cover"
@@ -69,7 +71,7 @@ export default function Products() {
                 Future <span className="text-red-500">Scholar </span>
                 Plan
               </h1>
-              <Image
+              <img
                 src="/education-plan.jpg"
                 alt="Carousel Image 3"
                 className="w-full h-[60vh] object-cover"
@@ -119,6 +121,39 @@ export default function Products() {
                 ></path>
               </svg>
             </button>
+          </div>
+        </div>
+      </section>
+
+      <hr className="mx-auto w-24 bg-black dark:bg-red-500 mt-7" />
+
+      <section>
+        <div className="wrapper flex-col mt-20 px-4 justify-center items-center">
+          <div>
+            <h1 className="self-center text-3xl font-semibold">Our Products</h1>
+            <p className="mt-4 ">
+              At Donewell life, we're committed to delivering exceptional
+              service and personalized advice to help our clients make informed
+              decisions about their insurance needs. Whether our valued clients
+              seek to safeguard their family's future, ensure their children's
+              education, or retire with financial security, our diverse
+              portfolio of insurance solutions is here to provide reliable
+              protection every step of the way. Explore our offerings and
+              discover how you can help your clients protect what they value
+              most.
+            </p>
+          </div>
+          <div className="flex flex-wrap justify-center text-center gap-10 mt-16">
+            {ProductDetails.map((product, index) => {
+              return (
+                <ProductCard
+                  key={index}
+                  src={product.src}
+                  productName={product.productName}
+                  summary={product.summary}
+                />
+              );
+            })}
           </div>
         </div>
       </section>

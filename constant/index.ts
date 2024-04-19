@@ -24,3 +24,36 @@ export const Constants = [
     text: "We commit to work effectively together to achieve common goals",
   },
 ];
+
+export const ProductDetails = [
+  {
+    src: "/fammy.jpg",
+    productName: "Family life protection plan",
+    summary:
+      "A family life protection plan offers you and your family peace of mind knowing that they are covered",
+  },
+  {
+    src: "/funeral.jpg",
+    productName: "Royal funeral policy",
+    summary:
+      "Royal funeral policy is a whole life policy designed to help meet the cost of funeral for the policyholder and their dependants",
+  },
+  {
+    src: "/scholar.jpg",
+    productName: "Future scholar plan",
+    summary:
+      "Future Scholar policy is an investment linked life assurance policy which secures the education of the policyholder's child",
+  },
+  {
+    src: "/exec-wealth.jpg",
+    productName: "Executive wealth plan",
+    summary:
+      "Executive wealth plan is designed to grow your money over medium to long term while also covering you against death, critical illness and total permanent disability.",
+  },
+  {
+    src: "/donewell-life.jpg",
+    productName: "Donewell life protection plan",
+    summary:
+      "This is a term assurance product that provides for the loss in family earnings on the death of the policyholder.",
+  },
+];

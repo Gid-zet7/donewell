@@ -14,9 +14,10 @@ export default function Home() {
           <div className="widescreen:section-min-height tallscreen:section-min-height my-12 scroll-mt-20 flex flex-col-reverse md:flex-row mt-4 max-w-6xl mx-auto justify-between items-center">
             <article className="md:w-1/2">
               <h2 className="max-w-md text-center text-4xl font-bold text-white sm:text-left sm:text-5xl">
-                Welcome to Donewell Agent
+                Welcome to <span className="text-red-400">Donewell Life</span>{" "}
+                Agent
               </h2>
-              <p className="mt-4 max-w-md text-center text-xl text-slate-400 sm:text-left">
+              <p className="mt-4 max-w-md text-center text-slate-400 sm:text-left">
                 We pledge to improve the financial security of our clients by
                 offering life insurance products that respond to their needs,
                 operate with commitment to unparalleled standards of business
@@ -31,7 +32,7 @@ export default function Home() {
                 </button>
               </div>
             </article>
-            <Image src="/agent.png" alt="" />
+            <Image src="/agent.png" alt="" width={350} height={100} />
           </div>
         </section>
 
@@ -49,7 +50,7 @@ export default function Home() {
         <section className="p-4">
           <Paper className="flex flex-col md:flex-row mt-4 max-w-6xl mx-auto justify-between text-center gap-3 mb-48">
             <div className="md:w-2/5">
-              <Image src="/sales-process.png" alt="" />
+              <Image src="/sales-process.png" alt="" width={300} height={100} />
             </div>
             <div className=" p-6 md:w-1/2 flex flex-col justify-center text-center gap-3">
               <h1 className="text-2xl font-semibold">Sales Process</h1>
