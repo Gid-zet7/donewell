@@ -42,7 +42,7 @@ export const ProductDetails = [
     src: "/scholar.jpg",
     productName: "Future scholar plan",
     summary:
-      "Future Scholar policy is an investment linked life assurance policy which secures the education of the policyholder's child",
+      "Future Scholar policy is an investment linked life assurance policy which secures the education of the policyholder&apos;s child",
   },
   {
     src: "/exec-wealth.jpg",

@@ -49,10 +49,13 @@ export default function Products() {
                 Family <span className="text-red-500">life </span>Protection
                 Plan
               </h1>
-              <img
+              <Image
                 src="/family.jpg"
                 alt="Carousel Image 1"
-                className="w-full h-[60vh] object-cover"
+                // className="w-full h-[60vh] object-cover"
+                width={2000}
+                height={200}
+                style={{ objectFit: "cover" }}
               />
             </div>
             <div className="carousel-item">
@@ -60,10 +63,13 @@ export default function Products() {
                 Royal <span className="text-red-500">Funeral </span>
                 Plan
               </h1>
-              <img
+              <Image
                 src="/ceremony.jpg"
                 alt="Carousel Image 2"
-                className="w-full h-[60vh] object-cover"
+                // className="w-full h-[60vh] object-cover"
+                width={2000}
+                height={10}
+                style={{ objectFit: "cover" }}
               />
             </div>
             <div className="carousel-item">
@@ -71,10 +77,13 @@ export default function Products() {
                 Future <span className="text-red-500">Scholar </span>
                 Plan
               </h1>
-              <img
+              <Image
                 src="/education-plan.jpg"
                 alt="Carousel Image 3"
-                className="w-full h-[60vh] object-cover"
+                // className="w-full h-[60vh] object-cover"
+                width={2000}
+                height={10}
+                style={{ objectFit: "cover" }}
               />
             </div>
           </div>
@@ -132,14 +141,14 @@ export default function Products() {
           <div>
             <h1 className="self-center text-3xl font-semibold">Our Products</h1>
             <p className="mt-4 ">
-              At Donewell life, we're committed to delivering exceptional
+              At Donewell life, we&apos;re committed to delivering exceptional
               service and personalized advice to help our clients make informed
               decisions about their insurance needs. Whether our valued clients
-              seek to safeguard their family's future, ensure their children's
-              education, or retire with financial security, our diverse
-              portfolio of insurance solutions is here to provide reliable
-              protection every step of the way. Explore our offerings and
-              discover how you can help your clients protect what they value
+              seek to safeguard their family&apos;s future, ensure their
+              children&apos;s education, or retire with financial security, our
+              diverse portfolio of insurance solutions is here to provide
+              reliable protection every step of the way. Explore our offerings
+              and discover how you can help your clients protect what they value
               most.
             </p>
           </div>
