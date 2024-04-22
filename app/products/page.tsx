@@ -152,7 +152,7 @@ export default function Products() {
               most.
             </p>
           </div>
-          <div className="flex flex-wrap justify-center text-center gap-10 mt-16">
+          <div className="flex flex-wrap justify-center text-center gap-10 mt-16 mb-24 ">
             {ProductDetails.map((product, index) => {
               return (
                 <ProductCard
@@ -160,6 +160,7 @@ export default function Products() {
                   src={product.src}
                   productName={product.productName}
                   summary={product.summary}
+                  href={product.href}
                 />
               );
             })}

@@ -17,11 +17,11 @@ export default function CoreValues() {
                 height={30}
                 className="items-center "
               />
-              <p className=" mb-1 text-2xl font-semibold bg-clip-text text-transparent bg-gradient-to-r from-indigo-500 to-indigo-300">
+              <p className=" mb-1 text-2xl font-semibold text-blue-400">
                 {constant.title}
               </p>
               <div className="p-4 w-72">
-                <p className="mb-4 text-base font-normal dark:text-gray-400">
+                <p className="mb-4 text-lg font-normal dark:text-gray-400">
                   {constant.text}
                 </p>
               </div>

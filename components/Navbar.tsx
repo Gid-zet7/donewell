@@ -20,9 +20,9 @@ const Navbar = () => {
 
   return (
     <>
-      <header className="sticky top-0 z-10 bg-black">
+      <header className="sticky top-0 z-10 bg-[#1b1a1a]">
         <section>
-          <div className="flex justify-between py-5 px-8 border-b-4 gap-4 md:hidden border-red-600">
+          <div className="flex justify-between py-5 px-8 border-b-4 gap-4 md:hidden border-red-500">
             <h1 className="text-xl lg:text-3xl md:hidden text-white">
               <Link href="/">Donewell Agent</Link>
             </h1>

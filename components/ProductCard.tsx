@@ -6,9 +6,15 @@ type Props = {
   src: string;
   productName: string;
   summary: string;
+  href: string;
 };
 
-export default function ProductCard({ src, productName, summary }: Props) {
+export default function ProductCard({
+  src,
+  productName,
+  summary,
+  href,
+}: Props) {
   return (
     <>
       <Paper className=" w-72 border-t-4 border-red-500">
@@ -17,7 +23,7 @@ export default function ProductCard({ src, productName, summary }: Props) {
           <h1 className="text-md font-semibold">{productName}</h1>
           <p className="mt-2 max-w-md text-center">{summary} </p>
           <a
-            href=""
+            href={href}
             className="text-red-700 border border-red-600 py-2 px-6 gap-2 rounded inline-flex items-center mt-6 hover:bg-red-700 hover:text-white"
           >
             <span>Read More</span>
