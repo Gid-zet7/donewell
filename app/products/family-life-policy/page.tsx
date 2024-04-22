@@ -1,7 +1,6 @@
 import React from "react";
 import Navbar from "@/components/Navbar";
 import Image from "next/image";
-import Paper from "@mui/material/Paper";
 import CoverLevels from "@/components/CoverLevels";
 import WaitingPeriod from "@/components/WaitingPeriod";
 
@@ -50,8 +49,6 @@ export default function FamilyLifePolicy() {
           </p>
         </div>
       </section>
-
-      {/* <hr className="mx-auto w-24 bg-black dark:bg-red-500 mt-40" /> */}
 
       <section className="flex flex-col justify-center items-center px-4 bg-red-600 mb-20">
         <div className="max-w-6xl mt-48 flex justify-center flex-col items-center">
@@ -116,24 +113,39 @@ export default function FamilyLifePolicy() {
         <div className="w-full md:max-w-6xl flex flex-col gap-4 mt-10">
           <h3 className="text-3xl font-semibold">Main Benefits</h3>
           <div className="flex flex-col md:flex-row justify-between w-full gap-4">
-            <Paper className=" w-full md:w-1/2 flex justify-around items-center py-3">
+            <div className=" w-full md:w-1/2 flex justify-around items-center py-3 bg-white text-black rounded-sm shadow-[0px_2px_3px_-1px_rgba(0,0,0,0.1),0px_1px_0px_0px_rgba(25,28,33,0.02),0px_0px_0px_1px_rgba(25,28,33,0.08)]">
               <Image src="/rip.png" width={80} height={50} alt="rip icon" />
               <p>Death Benefit</p>
-            </Paper>
-            <Paper className="w-full md:w-1/2 flex justify-around items-center py-3 ">
-              <Image src="/happiness.png" width={80} height={50} alt="" />
+            </div>
+            <div className="w-full md:w-1/2 flex justify-around items-center py-3 bg-white text-black rounded-sm shadow-[0px_2px_3px_-1px_rgba(0,0,0,0.1),0px_1px_0px_0px_rgba(25,28,33,0.02),0px_0px_0px_1px_rgba(25,28,33,0.08)] ">
+              <Image
+                src="/happiness.png"
+                width={80}
+                height={50}
+                alt="happiness icon"
+              />
               <p>Refreshment</p>
-            </Paper>
+            </div>
           </div>
           <div className="flex flex-col md:flex-row gap-4">
-            <Paper className="w-full md:w-1/2 flex justify-around items-center py-3">
-              <Image src="/medical.png" width={80} height={50} alt="" />
+            <div className="w-full md:w-1/2 flex justify-around items-center py-3 bg-white text-black rounded-sm shadow-[0px_2px_3px_-1px_rgba(0,0,0,0.1),0px_1px_0px_0px_rgba(25,28,33,0.02),0px_0px_0px_1px_rgba(25,28,33,0.08)]">
+              <Image
+                src="/medical.png"
+                width={80}
+                height={50}
+                alt="medical icon"
+              />
               <p>Critical Illness</p>
-            </Paper>
-            <Paper className="w-full md:w-1/2 flex justify-around items-center py-3">
-              <Image src="/save-money.png" width={80} height={50} alt="" />
+            </div>
+            <div className="w-full md:w-1/2 flex justify-around items-center py-3 bg-white text-black rounded-sm shadow-[0px_2px_3px_-1px_rgba(0,0,0,0.1),0px_1px_0px_0px_rgba(25,28,33,0.02),0px_0px_0px_1px_rgba(25,28,33,0.08)]">
+              <Image
+                src="/save-money.png"
+                width={80}
+                height={50}
+                alt="save-money icon"
+              />
               <p>Waiver of premium</p>
-            </Paper>
+            </div>
           </div>
         </div>
         <div className="mt-10 w-full md:max-w-6xl">
@@ -141,14 +153,14 @@ export default function FamilyLifePolicy() {
             Add-on / Voluntary benefits you can choose
           </h1>
           <div className="flex flex-col md:flex-row gap-4 mt-10">
-            <Paper className="w-full md:w-1/2 flex justify-around items-center py-3">
+            <div className="w-full md:w-1/2 flex justify-around items-center py-3 bg-white text-black rounded-sm shadow-[0px_2px_3px_-1px_rgba(0,0,0,0.1),0px_1px_0px_0px_rgba(25,28,33,0.02),0px_0px_0px_1px_rgba(25,28,33,0.08)]">
               <Image src="/fired.png" width={80} height={50} alt="" />
               <p>Redundancy Benefit</p>
-            </Paper>
-            <Paper className="w-full md:w-1/2 flex justify-around items-center py-3">
+            </div>
+            <div className="w-full md:w-1/2 flex justify-around items-center py-3 bg-white text-black rounded-sm shadow-[0px_2px_3px_-1px_rgba(0,0,0,0.1),0px_1px_0px_0px_rgba(25,28,33,0.02),0px_0px_0px_1px_rgba(25,28,33,0.08)]">
               <Image src="/incremental.png" width={80} height={50} alt="" />
               <p>Annual Premium and Benefit Increase Option</p>
-            </Paper>
+            </div>
           </div>
         </div>
       </section>
