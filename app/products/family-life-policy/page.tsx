@@ -43,10 +43,10 @@ export default function FamilyLifePolicy() {
           <p className="mt-5">
             <span className="text-red-500">Family Life Protection Plan</span>, a
             whole life protection plan, where a one-time payment, called the
-            death benefit is paid to the policyholder's beneficiaries when the
-            policy holder passes away. This financial assistance is vital for
-            families in times of grief, helping them cope with the difficulties
-            that come after a loss
+            death benefit is paid to the policyholder&apos;s beneficiaries when
+            the policy holder passes away. This financial assistance is vital
+            for families in times of grief, helping them cope with the
+            difficulties that come after a loss
           </p>
         </div>
       </section>
@@ -229,7 +229,7 @@ export default function FamilyLifePolicy() {
               Waiver of Premium
             </li>
             <p className="text-gray-300">
-              In the event of the main life's death, all future expense and
+              In the event of the main life&apos;s death, all future expense and
               dependent premiums are waived
             </p>
             <li className="text-xl font-semibold mt-6 text-black flex items-center gap-3">
