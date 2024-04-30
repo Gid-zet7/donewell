@@ -30,7 +30,7 @@ export default function FamilyLifePolicy() {
       <section className="flex flex-col justify-center items-center">
         <div className=" mt-20 md:mt-34 flex justify-center flex-col px-4 max-w-6xl mb-20">
           <h1 className=" text-5xl font-bold">
-            Understanding <span className="">Family Life</span> Protection Plan
+            Understanding Family Life Protection Plan
           </h1>
           <p className=" mt-10">
             During the chaos of everyday life, it is crucial to prioritize the
@@ -53,8 +53,8 @@ export default function FamilyLifePolicy() {
       <section className="flex flex-col justify-center items-center px-4 bg-red-600 mb-20">
         <div className="max-w-6xl mt-48 flex justify-center flex-col items-center">
           <h1 className=" text-5xl font-bold">
-            Protect your whole<span className="text-black"> Family</span> on one
-            plan
+            Protect your whole
+            <span className="dark:text-black "> Family</span> on one plan
           </h1>
           <p className="mt-5 font-semibold">
             We offer the following flexible and affordable funeral plans
@@ -190,14 +190,26 @@ export default function FamilyLifePolicy() {
             benefits
           </h1>
           <ul>
-            <li className="text-xl font-semibold mt-6 text-black">
+            <li className="text-xl font-semibold mt-6 text-black flex items-center gap-3">
+              <Image
+                src="/customization.png"
+                width={30}
+                height={20}
+                alt="customization icon"
+              />
               Customise your plan
             </li>
             <p className="text-gray-300">
               You choose the type of cover and benefits that best suit your
               needs and budget
             </p>
-            <li className="text-xl font-semibold mt-6 text-black">
+            <li className="text-xl font-semibold mt-6 text-black flex items-center gap-3">
+              <Image
+                src="/no-paper.png"
+                width={30}
+                height={20}
+                alt="no-paper icon"
+              />
               No medical health checks
             </li>
             <p className="text-gray-300">Only waiting periods apply</p>

@@ -7,7 +7,7 @@ export default function Footer() {
         <div className="md:w-2/3 w-full px-4 text-white flex flex-col">
           <div className="w-full text-7xl font-bold">
             <h1 className="w-full md:w-2/3">
-              If it must be done. then it must be done well
+              If it must be done, it must be done well
             </h1>
           </div>
           <div className="flex mt-8 flex-col md:flex-row md:justify-between">
