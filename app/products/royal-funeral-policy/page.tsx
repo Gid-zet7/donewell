@@ -222,6 +222,23 @@ export default function RoyalFuneralPolicy() {
           </ul>
         </div>
       </section>
+
+      <section className="flex flex-col justify-center items-center px-4 mb-20">
+        <div className="mt-20">
+          <h1 className="text-5xl font-bold">Royal Funeral Policy</h1>
+        </div>
+        <div className="max-w-4xl flex justify-center items-center mt-8">
+          <p>
+            In Conclusion In the heart of every family lies a desire for
+            security, for continuity, for dignity. With the Royal Funeral
+            Policy, these desires find fulfillment, woven into the very fabric
+            of existence. As we traverse the stages of life, let us do so with
+            heads held high, knowing that in life and in death, the Royal
+            Funeral Policy stands as a guardian, a friend, and a beacon of
+            unwavering assurance.
+          </p>
+        </div>
+      </section>
     </>
   );
 }
