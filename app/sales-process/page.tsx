@@ -26,7 +26,7 @@ export default function SalesProcess() {
             <h2 className="text-4xl font-bold ">
               What is the Selling Process?
             </h2>
-            <p className=" w-2/3 mt-6">
+            <p className=" md:w-2/3 mt-6">
               The selling process is the interaction between a seller and a
               potential buyer or client. It&apos;s generally a method businesses
               can replicate for consistent performance among salespeople.
