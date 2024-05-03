@@ -25,7 +25,7 @@ export default function ExecutiveWealthPlan() {
 
       <hr className="mx-auto w-24 bg-black dark:bg-red-500 mt-36 md:mt-40" />
 
-      <section className="flex flex-col justify-center items-center">
+      {/* <section className="flex flex-col justify-center items-center">
         <div className=" mt-20 md:mt-34 flex justify-center flex-col px-4 max-w-6xl mb-20">
           <h1 className=" text-5xl font-bold">Future Scholar Policy</h1>
           <h6 className="mt-3 font-semibold">
@@ -50,9 +50,9 @@ export default function ExecutiveWealthPlan() {
             every step of the way.
           </p>
         </div>
-      </section>
+      </section> */}
 
-      <section className="flex flex-col justify-center items-center px-4 bg-orange-300 mb-20">
+      {/* <section className="flex flex-col justify-center items-center px-4 bg-orange-300 mb-20">
         <div className="max-w-6xl mt-48 flex justify-center flex-col items-center">
           <h1 className="text-5xl font-bold">
             &quot;Education is the most powerful{" "}
@@ -72,7 +72,7 @@ export default function ExecutiveWealthPlan() {
                 “An investment in knowledge pay the best interest”- Benjamin
                 Franklin
               </p>
-              {/* <p className="mt-8 italic">1 Life</p> */}
+              
             </div>
           </div>
         </div>
@@ -122,7 +122,7 @@ export default function ExecutiveWealthPlan() {
             </div>
           </div>
         </div>
-      </section>
+      </section> */}
     </>
   );
 }
