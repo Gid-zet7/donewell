@@ -35,7 +35,7 @@ export default function DonewellLifeProtectionPlan() {
           <p className=" mt-10">
             Peace of mind and security with our comprehensive term assurance
             product, the DoneWell Life Protection Policy. Designed to safeguard
-            your family's financial well-being in the face of life's
+            your family&apos;s financial well-being in the face of life&apos;s
             uncertainties, this policy offers a range of benefits tailored to
             your needs.
           </p>

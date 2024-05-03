@@ -55,9 +55,9 @@ export default function FutureScholarPlan() {
       <section className="flex flex-col justify-center items-center px-4 bg-blue-300 mb-20">
         <div className="max-w-6xl mt-48 flex justify-center flex-col items-center">
           <h1 className=" text-4xl md:text-5xl font-bold">
-            "Education is the most powerful{" "}
+            &quot;Education is the most powerful{" "}
             <span className="dark:text-black "> weapon</span> which you can use
-            to change the world” - Nelson Mandela.
+            to change the world&quot; - Nelson Mandela.
           </h1>
 
           <div className="flex flex-col md:flex-row mt-10 max-w-6xl mx-auto justify-between text-center gap-20 mb-36">
