@@ -93,7 +93,7 @@ export default function FutureScholarPlan() {
             </div>
             <div className="w-full md:w-1/2 flex justify-around items-center py-3 bg-white text-black rounded-sm shadow-[0px_2px_3px_-1px_rgba(0,0,0,0.1),0px_1px_0px_0px_rgba(25,28,33,0.02),0px_0px_0px_1px_rgba(25,28,33,0.08)] ">
               <Image
-                src="/cashback.png"
+                src="/cash-withdrawal.png"
                 width={80}
                 height={50}
                 alt="cashback icon"
@@ -102,25 +102,59 @@ export default function FutureScholarPlan() {
             </div>
           </div>
           <div className="flex flex-col md:flex-row gap-4">
-            <div className="w-full md:w-1/2 flex justify-around items-center py-3 bg-white text-black rounded-sm shadow-[0px_2px_3px_-1px_rgba(0,0,0,0.1),0px_1px_0px_0px_rgba(25,28,33,0.02),0px_0px_0px_1px_rgba(25,28,33,0.08)]">
+            {/* <div className="w-full md:w-1/2 flex justify-around items-center py-3 bg-white text-black rounded-sm shadow-[0px_2px_3px_-1px_rgba(0,0,0,0.1),0px_1px_0px_0px_rgba(25,28,33,0.02),0px_0px_0px_1px_rgba(25,28,33,0.08)]">
               <Image
-                src="/memorial.png"
+                src="/cash-widthrawal.png"
                 width={80}
                 height={50}
-                alt="memorial icon"
+                alt="cash-widthrawal icon"
               />
-              <p>Memorial benefit</p>
-            </div>
+              <p>25% partial withdrawal</p>
+            </div> */}
             <div className="w-full md:w-1/2 flex justify-around items-center py-3 bg-white text-black rounded-sm shadow-[0px_2px_3px_-1px_rgba(0,0,0,0.1),0px_1px_0px_0px_rgba(25,28,33,0.02),0px_0px_0px_1px_rgba(25,28,33,0.08)]">
               <Image
-                src="/save-money.png"
+                src="/wallet.png"
                 width={80}
                 height={50}
-                alt="save-money icon"
+                alt="wallet icon"
               />
-              <p>Waiver of premium</p>
+              <p>Double Accident Benefit</p>
             </div>
           </div>
+        </div>
+      </section>
+
+      <section className="flex flex-col justify-center items-center px-4 md:px-0 bg-red-600 mb-20">
+        <div className="w-full md:max-w-6xl p-5 my-20">
+          <h1 className="text-5xl font-bold">
+            <span className="text-black">features</span> and benefits
+          </h1>
+          <ul className="flex flex-col gap-10">
+            <li className="mt-8">
+              • A term is selected for the plan with a minimum of Seven (7)
+              years.
+            </li>
+
+            <li className="">
+              • The policyholder is entitled to a life cover of GHC500.00
+              minimum. However, the minimum monthly contribution is GHC50.00
+            </li>
+
+            <li className="">
+              • The scheduled monthly contributions made are deposited into an
+              educational fund (Scholar Account), providing investment benefits.
+            </li>
+
+            <li className="">
+              • The amount in the scholar account is allocated interest on
+              compound basis. The policy allows for flexible contributions.
+            </li>
+            <li className="">
+              • The life cover amount shall be paid in addition to the scholar
+              account balance for the child&apos;s education should the
+              parent/guardian pass away.
+            </li>
+          </ul>
         </div>
       </section>
     </>

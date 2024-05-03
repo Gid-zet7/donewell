@@ -45,7 +45,7 @@ export default function RoyalFuneralPolicy() {
           </p>
           <p className="mt-5">
             <span className="text-red-500">
-              Purpose Beyond Mortality More than just a policy
+              Purpose Beyond Mortality: More than just a policy
             </span>
             , the Royal Funeral Policy stands as a testament to preparedness and
             compassion. It&apos;s a whole life policy meticulously crafted to
