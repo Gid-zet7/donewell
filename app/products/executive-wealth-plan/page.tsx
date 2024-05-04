@@ -35,7 +35,7 @@ export default function ExecutiveWealthPlan() {
           </h6>
           <p className=" mt-10">
             Are you dealing with rising costs, or mounting debt? Whatever your
-            money worries, don't let them slow down your success for saving
+            money worries, don&apos;t let them slow down your success for saving
             towards your studies, a dream house, or a dream holiday.
           </p>
           <p className="mt-5">
