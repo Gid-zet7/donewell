@@ -51,7 +51,7 @@ const Navbar = () => {
                 <a href="/products">
                   <li>Products</li>
                 </a>
-                <li>Principles</li>
+                {/* <li>Principles</li> */}
                 <li className="text-red-400">Dashboard</li>
               </ul>
             </div>
@@ -75,12 +75,12 @@ const Navbar = () => {
             >
               Products
             </a>
-            <a
+            {/* <a
               href="#principles"
               className="w-full py-6 text-center hover:opacity-90"
             >
               Principles
-            </a>
+            </a> */}
             <a
               href="#dashboard"
               className="w-full py-6 text-center hover:opacity-90"

@@ -1,6 +1,8 @@
 import React from "react";
 import Navbar from "@/components/Navbar";
 import Image from "next/image";
+import ExecWaitingPeriod from "@/components/ExectWaitingPeriod";
+import ExecHospAmount from "@/components/ExecHospAmount";
 
 export default function ExecutiveWealthPlan() {
   return (
@@ -25,104 +27,222 @@ export default function ExecutiveWealthPlan() {
 
       <hr className="mx-auto w-24 bg-black dark:bg-red-500 mt-36 md:mt-40" />
 
-      {/* <section className="flex flex-col justify-center items-center">
+      <section className="flex flex-col justify-center items-center">
         <div className=" mt-20 md:mt-34 flex justify-center flex-col px-4 max-w-6xl mb-20">
           <h1 className=" text-5xl font-bold">Future Scholar Policy</h1>
           <h6 className="mt-3 font-semibold">
             Embark on a Journey of Knowledge with the Future Scholar Policy
           </h6>
           <p className=" mt-10">
-            In the vast journey of life, few investments are as precious as
-            education. It&apos;s the cornerstone upon which dreams are built,
-            the key that unlocks countless opportunities, and the beacon that
-            illuminates the path to a brighter future. Recognizing the profound
-            importance of education, we proudly introduce the Future Scholar
-            Policy, an investment linked life assurance policy designed to
-            safeguard the educational journey of your child.
+            Are you dealing with rising costs, or mounting debt? Whatever your
+            money worries, don't let them slow down your success for saving
+            towards your studies, a dream house, or a dream holiday.
           </p>
           <p className="mt-5">
-            At its core, the{" "}
-            <span className="text-orange-300">Future Scholar Policy</span> is
-            more than just a financial instrument, it&apos;s a testament to the
-            enduring power of education. From kindergarten through tertiary
-            level, this policy stands as a steadfast guardian, ensuring that
-            your child&apos;s educational aspirations are nurtured and protected
-            every step of the way.
+            <span className="text-orange-300">Executive Wealth Plan</span> is
+            designed to grow your money over medium to long term while also
+            covering you against death, critical illness and total permanent
+            disability. It puts your Money Plan into action by helping you do
+            the groundwork to achieve your next big thing!
           </p>
-        </div>
-      </section> */}
-
-      {/* <section className="flex flex-col justify-center items-center px-4 bg-orange-300 mb-20">
-        <div className="max-w-6xl mt-48 flex justify-center flex-col items-center">
-          <h1 className="text-5xl font-bold">
-            &quot;Education is the most powerful{" "}
-            <span className="dark:text-black "> weapon</span> which you can use
-            to change the world&quot; - Nelson Mandela.
-          </h1>
-
-          <div className="flex flex-col md:flex-row mt-10 max-w-6xl mx-auto justify-between text-center gap-20 mb-36">
-            <div className="mb-5">
-              <Image
-                src="/student.png"
-                alt="man icon"
-                width={200}
-                height={100}
-              />
-              <p className=" w-48 ">
-                “An investment in knowledge pay the best interest”- Benjamin
-                Franklin
-              </p>
-              
-            </div>
-          </div>
         </div>
       </section>
 
       <section className="flex flex-col justify-center items-center px-4 md:px-0 mb-20">
         <div className="w-full md:max-w-6xl flex flex-col gap-4 mt-10">
-          <h3 className="text-3xl font-semibold">Benefits</h3>
+          <h3 className="text-3xl font-semibold">Main Benefits</h3>
           <div className="flex flex-col md:flex-row justify-between w-full gap-4">
             <div className=" w-full md:w-1/2 flex justify-around items-center py-3 bg-white text-black rounded-sm shadow-[0px_2px_3px_-1px_rgba(0,0,0,0.1),0px_1px_0px_0px_rgba(25,28,33,0.02),0px_0px_0px_1px_rgba(25,28,33,0.08)]">
-              <Image
-                src="/investment.png"
-                width={80}
-                height={50}
-                alt="investment icon"
-              />
-              <p>Attractive investment benefit </p>
+              <Image src="/rip.png" width={80} height={50} alt="rip icon" />
+              <p>Death benefit</p>
             </div>
             <div className="w-full md:w-1/2 flex justify-around items-center py-3 bg-white text-black rounded-sm shadow-[0px_2px_3px_-1px_rgba(0,0,0,0.1),0px_1px_0px_0px_rgba(25,28,33,0.02),0px_0px_0px_1px_rgba(25,28,33,0.08)] ">
               <Image
-                src="/cashback.png"
+                src="/fender-bender.png"
                 width={80}
                 height={50}
-                alt="cashback icon"
+                alt="fender-bender icon"
               />
-              <p>Partial withdrawal</p>
+              <p>Accidental benefit</p>
             </div>
           </div>
           <div className="flex flex-col md:flex-row gap-4">
             <div className="w-full md:w-1/2 flex justify-around items-center py-3 bg-white text-black rounded-sm shadow-[0px_2px_3px_-1px_rgba(0,0,0,0.1),0px_1px_0px_0px_rgba(25,28,33,0.02),0px_0px_0px_1px_rgba(25,28,33,0.08)]">
               <Image
-                src="/memorial.png"
+                src="/green-leaf.png"
                 width={80}
                 height={50}
-                alt="memorial icon"
+                alt="green-leaf icon"
               />
-              <p>Memorial benefit</p>
+              <p>Maturity bonus</p>
             </div>
             <div className="w-full md:w-1/2 flex justify-around items-center py-3 bg-white text-black rounded-sm shadow-[0px_2px_3px_-1px_rgba(0,0,0,0.1),0px_1px_0px_0px_rgba(25,28,33,0.02),0px_0px_0px_1px_rgba(25,28,33,0.08)]">
               <Image
-                src="/save-money.png"
+                src="/growth.png"
                 width={80}
                 height={50}
-                alt="save-money icon"
+                alt="growth icon"
               />
-              <p>Waiver of premium</p>
+              <p>Maturity benefit</p>
             </div>
           </div>
         </div>
-      </section> */}
+        <div className="mt-10 w-full md:max-w-6xl">
+          <h1 className="text-2xl font-semibold">
+            Add-on / Voluntary benefits you can choose
+          </h1>
+          <div className="flex flex-col md:flex-row gap-4 mt-10">
+            <div className="w-full md:w-1/2 flex justify-around items-center py-3 bg-white text-black rounded-sm shadow-[0px_2px_3px_-1px_rgba(0,0,0,0.1),0px_1px_0px_0px_rgba(25,28,33,0.02),0px_0px_0px_1px_rgba(25,28,33,0.08)]">
+              <Image
+                src="/medical.png"
+                width={80}
+                height={50}
+                alt="medical icon"
+              />
+              <p>Critical Illness</p>
+            </div>
+            <div className="w-full md:w-1/2 flex justify-around items-center py-3 bg-white text-black rounded-sm shadow-[0px_2px_3px_-1px_rgba(0,0,0,0.1),0px_1px_0px_0px_rgba(25,28,33,0.02),0px_0px_0px_1px_rgba(25,28,33,0.08)]">
+              <Image
+                src="/hospital-bed.png"
+                width={80}
+                height={50}
+                alt="hospital-bed icon"
+              />
+              <p>Hospitalization Coverage</p>
+            </div>
+            <div className="w-full md:w-1/2 flex justify-around items-center py-3 bg-white text-black rounded-sm shadow-[0px_2px_3px_-1px_rgba(0,0,0,0.1),0px_1px_0px_0px_rgba(25,28,33,0.02),0px_0px_0px_1px_rgba(25,28,33,0.08)]">
+              <Image
+                src="/wheelchair.png"
+                width={80}
+                height={50}
+                alt="wheelchair icon"
+              />
+              <p>Total Permanent disability</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section className="flex flex-col justify-center items-center px-4 mb-20">
+        <div className="mt-20">
+          <h1 className="text-5xl font-bold">Waiting Period</h1>
+        </div>
+        <div className="max-w-4xl flex justify-center items-center">
+          <ExecWaitingPeriod />
+        </div>
+      </section>
+
+      <section className="flex flex-col justify-center items-center px-4 mb-20">
+        <div className="mt-20">
+          <h1 className="text-5xl font-bold">Daily Hospital Amount</h1>
+        </div>
+        <div className="max-w-4xl flex justify-center items-center">
+          <ExecHospAmount />
+        </div>
+      </section>
+
+      <section className="flex flex-col justify-center items-center px-4 md:px-0 bg-red-600">
+        <div className="w-full md:max-w-6xl p-5 my-20">
+          <h1 className="text-5xl font-bold">
+            Some <span className="text-black">unique</span> features and
+            benefits
+          </h1>
+          <ul>
+            <li className="text-xl font-semibold mt-6 text-black flex items-center gap-3">
+              <Image
+                src="/customization.png"
+                width={30}
+                height={20}
+                alt="customization icon"
+              />
+              Customise your plan
+            </li>
+            <p className="text-gray-300">
+              You choose the type of cover and benefits that best suit your
+              needs and budget.
+            </p>
+
+            <li className="text-xl font-semibold mt-6 text-black flex items-center gap-3">
+              <Image src="/rip.png" width={30} height={20} alt="rip icon" />
+              Death Benefit
+            </li>
+            <p className="text-gray-300">
+              A lump sum payment equal to the Sum Assured on the death of the
+              life insured
+            </p>
+            <li className="text-xl font-semibold mt-6 text-black flex items-center gap-3">
+              <Image
+                src="/fender-bender.png"
+                width={30}
+                height={20}
+                alt="fender-bender icon"
+              />
+              Accidental Death
+            </li>
+            <p className="text-gray-300">
+              it, a lump sum payment equal to the death benefit will be paid if
+              the policyholder&apos;s death is caused by an accident
+            </p>
+            <li className="text-xl font-semibold mt-6 text-black flex items-center gap-3">
+              <Image
+                src="/medical.png"
+                width={30}
+                height={20}
+                alt="medical icon"
+              />
+              Critical Illness
+            </li>
+            <p className="text-gray-300">
+              A lump sum payment equal to 50% of the death benefit if the main
+              life is diagnosed with any of the named critical illness. This
+              benefit is an accelerated death benefit
+            </p>
+            <li className="text-xl font-semibold mt-6 text-black flex items-center gap-3">
+              <Image
+                src="/growth.png"
+                width={30}
+                height={20}
+                alt="growth icon"
+              />
+              Maturity benefit
+            </li>
+            <p className="text-gray-300">
+              A lump sum payment equal to the Sum Assured less all unpaid
+              premiums.
+            </p>
+            <li className="text-xl font-semibold mt-6 text-black flex items-center gap-3">
+              <Image
+                src="/green-leaf.png"
+                width={30}
+                height={20}
+                alt="green-leaf icon"
+              />
+              Maturity bonus
+            </li>
+            <p className="text-gray-300">
+              Bonus of 2% simple interest on the Sum Assured at maturity will be
+              paid provided all premiums have been paid to date. The maturity
+              bonus will not apply if a premium was missed throughout the policy
+              term.
+            </p>
+            <li className="text-xl font-semibold mt-6 text-black flex items-center gap-3">
+              <Image
+                src="/hospital-bed.png"
+                width={30}
+                height={20}
+                alt="hospital-bed icon"
+              />
+              Hospitalisation
+            </li>
+            <p className="text-gray-300">
+              A lump sum payment will be paid for each day the life insured is
+              hospitalised as a result of illness or injury during the policy
+              term, subject to a minimum and maximum number of 5 and 20 days
+              respectively
+            </p>
+          </ul>
+        </div>
+      </section>
     </>
   );
 }
